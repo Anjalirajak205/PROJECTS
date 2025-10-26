@@ -289,3 +289,11 @@ ul a{
 .Copyright{
     padding-top: 5px;
 }
+
+@media (max-width: 768px) {
+    .nav-search { width: 90%; }
+    .box { width: 45%; }
+}
+@media (max-width: 480px) {
+    .box { width: 90%; }
+}
